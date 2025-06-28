@@ -14,11 +14,11 @@ class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = UserModel
-        field = ["email", "password"]
+        fields = ["email", "password"]
 
 
 class NewsSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = NewsModel
-        field = "__all__"
+        fields = "__all__"
