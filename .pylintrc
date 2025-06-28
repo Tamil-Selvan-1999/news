@@ -1,0 +1,6 @@
+[MESSAGES CONTROL]
+disable=
+    missing-docstring,
+    no-member,
+    invalid-name,
+    too-few-public-methods
